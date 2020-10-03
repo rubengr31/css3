@@ -1,0 +1,134 @@
+p
+{
+	font-size: 1.5rem;}
+
+section1
+{ 
+	font-size: 3rem;}
+
+body 
+{
+	font-family: georgia;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	background-image: url("https://live.staticflickr.com/5828/22384878654_9b00a82ee9_h.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;}
+
+.container
+{
+	width: 85%;
+	max-width: 1000px;
+	margin: 0 auto;}
+
+img 
+{
+	margin:0 auto;}
+H1
+{
+	color: white;
+	font-family:Calibri;
+	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+
+.header
+{
+	background: #333;
+	color: white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;}
+
+.header a 
+{
+	color: white;
+	text-decoration: none;}
+
+.logo-nav-container
+{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;}
+
+.logo-icon
+{
+	display: none;}    
+
+.navigation ul
+{
+    margin: 0rem;
+	padding: 0;
+	list-style: none;}
+
+   	.navigation ul li
+    {
+    display: inline-block;
+    padding: 1rem;}
+
+        .navigation ul il a
+		{
+		   	display: block;
+		   	padding: 0.5rem 2rem;
+		    transition:all 0.2s linear;
+		    border-radius: 5px;}
+
+		    .navigation ul il a:hover
+		    {
+		      	background: #ccc;}
+
+.footer
+{
+   	background: #333;
+   	padding: 4rem 0;
+   	text-align: center;
+   	margin-top: 6rem;}
+
+.main
+{
+   	padding-top: 12rem;}
+
+@media only screen and (max-width: 767px) 
+{
+	.logo-icon
+	{
+		display: block;
+		cursor: pointer;
+	    padding: .5rem 1rem;}
+
+	.navigation
+	{
+		width: 100%;
+	    margin: 1rem;}
+
+    .navigation ul
+    {
+    	display: none}
+
+    .navigation ul.show
+    {
+      	display: block;}
+
+   	.navigation ul li
+    {
+        display: inline-block;}
+
+    .navigation ul il a
+    {
+       	display: block;
+       	padding: 0.5rem 0rem;
+        transition:all 0.2s linear;
+        border-radius: 5px;}
+
+    .navigation ul il a:hover
+    {
+       	background: #ccc;}
+}
+
